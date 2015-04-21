@@ -10,10 +10,11 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 1000px;
-  background-image: url("images/poutre.jpg");
+  max-width: 600px;
+  background-image: url("images/fond.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .rubrique {
@@ -28,11 +29,15 @@ body {
   border-color: black;
 }
 
+.header { width: 100%;
+  background-color: rgba(100,100,100,.5);
+}
+
 h1 {
   font-family: 'Lakki Reddy', cursive;
   text-align: center;
-  font-size: 75px;
-  color: rgba(255,255,255,1);
+  font-size: 55px;
+  color: white;
   margin: 60px 0 0 0;
 }
 
@@ -60,6 +65,7 @@ p {
   -moz-transition: height .5s;
 }
 
+
 small {
   color: white;
 }
@@ -75,7 +81,7 @@ small {
 }
 .third{
   display: block;
-  background-image: url("images/atelier.jpg");
+  background-image: url("images/creatrice.jpg");
 }
 
 }
@@ -112,24 +118,26 @@ small {
 
 <body>
 
-<h1> <img src="images/logo.png"> LA CLE DU GRENIER <img src="images/logo.png"> </h1>
+<div class= "header"> <h1> LA  CLE  DU  GRENIER  </br> <img src="images/logo.png"> </h1>
 
 
-<h2>La deco depoussieree</h2>
+<h2>La deco depoussieree</h2> </div>
+
+
 
 <a href="creations.html" class="first rubrique">
   <p> Nos creations <br />
-  <small> Venez decouvrir les tresors de notre grenier </small></p>
+  <small> Venez decouvrir les tresors de notre grenier! </small></p>
 </a>
 
 <a href="atelier.html" class="second rubrique">
-  <p> Notre atelier <br />
-  <small> Venez decouvrir notre charmant grenier </small></p>
+  <p> Notre grenier <br />
+  <small> Venez decouvrir notre charmant atelier! </small></p>
 </a>
   
-<a href="creatrice.html" class="third rubrique">
+<a href="creatrices.html" class="third rubrique">
   <p>Nos creatrices <br />
-  <small> Venez decouvrir nos creatrices de talent. </small></p>
+  <small> Venez decouvrir les filles du grenier! </small></p>
 </a>
 
 
