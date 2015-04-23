@@ -22,10 +22,13 @@ p { margin: 25px 0 25px 0;
 
 body {
   font-family: helvetica, sans-serif;
+  font-size: 18px;
   font-color: white;
   margin: 0 auto;
   max-width: 1000px;
-  background-color: brown;
+  background-image: url("images/fondrubrique.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .image {
@@ -35,37 +38,41 @@ body {
     max-height: 400px;
     max-width: 400px;
     border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    border-width: 2px;
+    border-color: black;
 }
 
+.header { width: 100%;
+  background-color: rgba(100,100,100,.5);
+}
 
 </style>
 
 </head>
 
+
 <body>
 
-<h1> Le grenier </h1>
+<div class= "header"> <h1> Le grenier </h1> <div>
 
 <p> 
-	Voici notre atelier ou nous depoussierons de jolies vieilleries pour les rendre irresistible.
+	Voici notre atelier ou nous depoussierons de jolies vieilleries pour les rendre irresistibles.
 </p>
 
-<div class="image">
-<img src="images/atelier1.jpg">
+<div class="image" title="blabla"> 
+<img src="images/atelier1.jpg" alt="blabla">
 </div>
 
-<div class="image">
-<img src="images/atelier2.jpg">
+<div class="image" title="blabla">
+<img src="images/atelier2.jpg" alt="blabla">
 </div>
 
-<div class="image">
-<img src="images/exterieur2.jpg">
+<div class="image" title="blabla">
+<img src="images/exterieur2.jpg" alt="blabla">
 </div>
 
-<div class="image">
-<img src="images/atelier6.jpg">
+<div class="image" title="blabla">
+<img src="images/atelier6.jpg" alt="blabla">
 </div>
 
 <p>
