@@ -10,19 +10,24 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 800px;
+  text-align: center;
   background-image: url("images/fond.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width:740px;
+}
+
 .rubrique {
   height: 300px;
-  background-size: 700px 300px;
   position: relative;
-  margin: 40px 0px 60px 40px;
-  max-width: 700px;
+  margin: 40px 0px 60px 0;
   border-radius: 12px;
   border-style: solid;
   border-width: 3px;
@@ -62,9 +67,6 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
 }
 
 
@@ -75,15 +77,15 @@ small {
 
 .first{
   display: block;
-  background-image: url("images/lustre.jpg");
+  background-image: url("images/home_lustre.jpg");
 }
 .second{
   display: block;
-  background-image: url("images/atelierfond.jpg");
+  background-image: url("images/home_atelier.jpg");
 }
 .third{
   display: block;
-  background-image: url("images/creatricefond.jpg");
+  background-image: url("images/home_creatrice.jpg");
 }
 
 
@@ -95,27 +97,33 @@ small {
 
 <body>
 
-<div class= "header"> <h1> LA  CLE  DU  GRENIER </br> <img src="images/logo.png"> </h1>
+
+<div class="container">
+
+  <div class= "header">
+    <h1>
+      LA  CLE  DU  GRENIER </br> <img src="images/logo.png">
+    </h1>
 
 
-<h2>La deco depoussieree</h2> </div>
+  <h2>La deco depoussieree</h2> </div>
 
 
 
-<a href="creations.html" class="first rubrique">
-  <p> Nos creations <br />
-  <small> Venez decouvrir les tresors de notre grenier! </small></p>
-</a>
+  <a href="creations.html" class="first rubrique">
+    <p> Nos creations <br>
+    <small> Venez decouvrir les tresors de notre grenier! </small></p>
+  </a>
 
-<a href="atelier.html" class="second rubrique">
-  <p> Notre grenier <br />
-  <small> Venez decouvrir notre charmant atelier! </small></p>
-</a>
-  
-<a href="creatrices.html" class="third rubrique">
-  <p>Nos creatrices <br />
-  <small> Venez decouvrir les filles du grenier! </small></p>
-</a>
-
+  <a href="atelier.html" class="second rubrique">
+    <p> Notre grenier <br>
+    <small> Venez decouvrir notre charmant atelier! </small></p>
+  </a>
+    
+  <a href="creatrices.html" class="third rubrique">
+    <p>Nos creatrices <br>
+    <small> Venez decouvrir les filles du grenier! </small></p>
+  </a>
+</div>
 
 </body>
